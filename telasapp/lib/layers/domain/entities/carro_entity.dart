@@ -12,4 +12,10 @@ class CarroEntity {
     double ? get valorReal {
       return valor! * qtdPortar!;
     }
+
+    setLogicaX(){
+       if(valorReal! > 900000.000){
+         valor = valor! * 2;
+    }
+    }
 }
